@@ -1,15 +1,39 @@
 # Setup
 title: Khs Jekyll
+paginate: 1
 baseurl: ""
 url : "https://github.com/kohs116/kohs116.github.io"
 permalink: pretty
 
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
 
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
 
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
 author:
   name: Ko Huisu
   email: kohs116@inu.ac.kr
 
 # Custom vars
 version: 3.0.0
-
