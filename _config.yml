@@ -4,6 +4,7 @@ paginate: 1
 baseurl: ""
 url : "https://github.com/kohs116/kohs116.github.io"
 permalink: pretty
+disqus_shortname:	kohs116
 
 # Gems
 plugins:
